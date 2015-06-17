@@ -8,24 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		057E54B71B31E87A0041F86B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 057E54B61B31E87A0041F86B /* main.m */; };
-		057E54BA1B31E87A0041F86B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 057E54B91B31E87A0041F86B /* AppDelegate.m */; };
-		057E54BD1B31E87A0041F86B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 057E54BC1B31E87A0041F86B /* ViewController.m */; };
-		057E54C01B31E87A0041F86B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 057E54BE1B31E87A0041F86B /* Main.storyboard */; };
+		057E54BA1B31E87A0041F86B /* HTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 057E54B91B31E87A0041F86B /* HTAppDelegate.m */; };
 		057E54C21B31E87A0041F86B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 057E54C11B31E87A0041F86B /* Assets.xcassets */; };
 		057E54C51B31E87A0041F86B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 057E54C31B31E87A0041F86B /* LaunchScreen.storyboard */; };
+		057E54CE1B31EA1C0041F86B /* HTHotelsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 057E54CD1B31EA1C0041F86B /* HTHotelsViewController.m */; };
+		057E54D11B31EB0B0041F86B /* HTCitiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 057E54D01B31EB0B0041F86B /* HTCitiesViewController.m */; };
+		057E54D41B31F3CE0041F86B /* HTUserActivityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 057E54D31B31F3CE0041F86B /* HTUserActivityManager.m */; };
+		057E54D61B31F5CE0041F86B /* CoreSpotlight.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 057E54D51B31F5CE0041F86B /* CoreSpotlight.framework */; };
+		057E54D81B31F5EB0041F86B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 057E54D71B31F5EB0041F86B /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		057E54B21B31E87A0041F86B /* SampleNSUserActivityApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleNSUserActivityApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		057E54B61B31E87A0041F86B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		057E54B81B31E87A0041F86B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		057E54B91B31E87A0041F86B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		057E54BB1B31E87A0041F86B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		057E54BC1B31E87A0041F86B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		057E54BF1B31E87A0041F86B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		057E54B81B31E87A0041F86B /* HTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTAppDelegate.h; sourceTree = "<group>"; };
+		057E54B91B31E87A0041F86B /* HTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTAppDelegate.m; sourceTree = "<group>"; };
 		057E54C11B31E87A0041F86B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		057E54C41B31E87A0041F86B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		057E54C61B31E87A0041F86B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		057E54CC1B31EA1C0041F86B /* HTHotelsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTHotelsViewController.h; sourceTree = "<group>"; };
+		057E54CD1B31EA1C0041F86B /* HTHotelsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTHotelsViewController.m; sourceTree = "<group>"; };
+		057E54CF1B31EB0B0041F86B /* HTCitiesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTCitiesViewController.h; sourceTree = "<group>"; };
+		057E54D01B31EB0B0041F86B /* HTCitiesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTCitiesViewController.m; sourceTree = "<group>"; };
+		057E54D21B31F3CE0041F86B /* HTUserActivityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTUserActivityManager.h; sourceTree = "<group>"; };
+		057E54D31B31F3CE0041F86B /* HTUserActivityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTUserActivityManager.m; sourceTree = "<group>"; };
+		057E54D51B31F5CE0041F86B /* CoreSpotlight.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreSpotlight.framework; path = System/Library/Frameworks/CoreSpotlight.framework; sourceTree = SDKROOT; };
+		057E54D71B31F5EB0041F86B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +41,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				057E54D81B31F5EB0041F86B /* MobileCoreServices.framework in Frameworks */,
+				057E54D61B31F5CE0041F86B /* CoreSpotlight.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +52,8 @@
 		057E54A91B31E87A0041F86B = {
 			isa = PBXGroup;
 			children = (
+				057E54D71B31F5EB0041F86B /* MobileCoreServices.framework */,
+				057E54D51B31F5CE0041F86B /* CoreSpotlight.framework */,
 				057E54B41B31E87A0041F86B /* SampleNSUserActivityApp */,
 				057E54B31B31E87A0041F86B /* Products */,
 			);
@@ -58,15 +70,18 @@
 		057E54B41B31E87A0041F86B /* SampleNSUserActivityApp */ = {
 			isa = PBXGroup;
 			children = (
-				057E54B81B31E87A0041F86B /* AppDelegate.h */,
-				057E54B91B31E87A0041F86B /* AppDelegate.m */,
-				057E54BB1B31E87A0041F86B /* ViewController.h */,
-				057E54BC1B31E87A0041F86B /* ViewController.m */,
-				057E54BE1B31E87A0041F86B /* Main.storyboard */,
+				057E54B81B31E87A0041F86B /* HTAppDelegate.h */,
+				057E54B91B31E87A0041F86B /* HTAppDelegate.m */,
 				057E54C11B31E87A0041F86B /* Assets.xcassets */,
 				057E54C31B31E87A0041F86B /* LaunchScreen.storyboard */,
 				057E54C61B31E87A0041F86B /* Info.plist */,
 				057E54B51B31E87A0041F86B /* Supporting Files */,
+				057E54CC1B31EA1C0041F86B /* HTHotelsViewController.h */,
+				057E54CD1B31EA1C0041F86B /* HTHotelsViewController.m */,
+				057E54CF1B31EB0B0041F86B /* HTCitiesViewController.h */,
+				057E54D01B31EB0B0041F86B /* HTCitiesViewController.m */,
+				057E54D21B31F3CE0041F86B /* HTUserActivityManager.h */,
+				057E54D31B31F3CE0041F86B /* HTUserActivityManager.m */,
 			);
 			path = SampleNSUserActivityApp;
 			sourceTree = "<group>";
@@ -105,6 +120,7 @@
 		057E54AA1B31E87A0041F86B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = HT;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = HotelTonight;
 				TargetAttributes = {
@@ -138,7 +154,6 @@
 			files = (
 				057E54C51B31E87A0041F86B /* LaunchScreen.storyboard in Resources */,
 				057E54C21B31E87A0041F86B /* Assets.xcassets in Resources */,
-				057E54C01B31E87A0041F86B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,23 +164,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				057E54BD1B31E87A0041F86B /* ViewController.m in Sources */,
-				057E54BA1B31E87A0041F86B /* AppDelegate.m in Sources */,
+				057E54BA1B31E87A0041F86B /* HTAppDelegate.m in Sources */,
 				057E54B71B31E87A0041F86B /* main.m in Sources */,
+				057E54CE1B31EA1C0041F86B /* HTHotelsViewController.m in Sources */,
+				057E54D11B31EB0B0041F86B /* HTCitiesViewController.m in Sources */,
+				057E54D41B31F3CE0041F86B /* HTUserActivityManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		057E54BE1B31E87A0041F86B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				057E54BF1B31E87A0041F86B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		057E54C31B31E87A0041F86B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

@@ -1,22 +1,33 @@
 //
-//  AppDelegate.m
+//  HTAppDelegate.m
 //  SampleNSUserActivityApp
 //
 //  Created by Doug Suriano on 6/17/15.
 //  Copyright © 2015 HotelTonight. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "HTAppDelegate.h"
+#import "HTHotelsViewController.h"
 
-@interface AppDelegate ()
+@interface HTAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation HTAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    HTHotelsViewController *hotelsVC = [[HTHotelsViewController alloc] initWithNibName:nil bundle:nil];
+    UINavigationController *navVc = [[UINavigationController alloc] initWithRootViewController:hotelsVC];
+    
+    self.window.rootViewController = navVc;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

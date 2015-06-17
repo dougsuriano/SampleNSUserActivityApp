@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HTHotelsViewController.h
 //  SampleNSUserActivityApp
 //
 //  Created by Doug Suriano on 6/17/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface HTHotelsViewController : UIViewController
 
 @end
-
