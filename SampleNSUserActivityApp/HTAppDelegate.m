@@ -28,6 +28,8 @@
     self.window.rootViewController = navVc;
     [self.window makeKeyAndVisible];
     
+	NSLog(@"Freedom");
+	
     return YES;
 }
 
